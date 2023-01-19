@@ -26,9 +26,70 @@
 
 
 	<!-- Lesson#16 (addEventListener, removeEventListener) Start -->
-	<button>Click Me</button>
-	<input type="text" name="my_input">
+	<!--<button>Click Me</button>
+	<input type="text" name="my_input">-->
 	<!-- Lesson#16 End -->
+
+
+
+	<!-- Lesson#17-1 (Практика: простой интернет магазин) Start -->
+	<div class="tabs">
+		<button class="tab" data-tab-id="goods">Товары </button>
+		<span class="separator">/</span>
+		<button class="tab cart-tab" data-tab-id="cart">Корзина</button>
+		<span class="separator">/</span>
+		<button class="tab" data-tab-id="exit">Выйти</button>
+	</div>
+
+	<div class="product-items">
+		<div class="product-item">
+			<img src="img/html.png">
+			<div class="product-list">
+				<h3>Уроки по HTML</h3>
+				<p class="price">₽ 300</p>
+				<button class="button">В корзину</button>
+			</div>
+		</div>
+
+		<div class="product-item">
+			<img src="img/css.png">
+			<div class="product-list">
+				<h3>Уроки по CSS</h3>
+				<p class="price">₽ 150</p>
+				<button class="button">В корзину</button>
+			</div>
+		</div>
+
+		<div class="product-item">
+			<img src="img/js.png">
+			<div class="product-list">
+				<h3>Уроки по JS</h3>
+				<p class="price">₽ 260</p>
+				<button class="button">В корзину</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="cart-items">
+		<div class="cart-item">
+			<div class="cart-item-title">Уроки по HTML</div>
+			<div class="cart-item-count">3шт.</div>
+			<div class="cart-item-price">₽ 150</div>
+		</div>
+
+		<div class="cart-item">
+			<div class="cart-item-title">Уроки по CSS</div>
+			<div class="cart-item-count">1шт.</div>
+			<div class="cart-item-price">₽ 450</div>
+		</div>
+
+		<div class="cart-item">
+			<div class="cart-item-title">Уроки по JS</div>
+			<div class="cart-item-count">6шт.</div>
+			<div class="cart-item-price">₽ 550</div>
+		</div>
+	</div>
+	<!-- Lesson#17-1 End -->
 
 
 	<!-- #1. Уроки по JavaScript для НАЧИНАЮЩИХ (тэг script, async, defer) -->
@@ -78,6 +139,9 @@
 
 	<!-- #16. Уроки по JavaScript для НАЧИНАЮЩИХ (addEventListener, removeEventListener) -->
 	<script src="lesson-16/lesson-16.js"></script>
+
+	<!-- #17-1. Уроки по JavaScript для НАЧИНАЮЩИХ (Практика: простой интернет магазин) -->
+	<script src="lesson-17-1/lesson-17-1.js"></script>
 </body>
 
 </html>
