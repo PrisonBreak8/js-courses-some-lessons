@@ -2,6 +2,7 @@
 
 //const goods = document.querySelector('button[data-id="goods"]');
 //const cart = document.querySelector('button[data-id="cart"]');
+
 //console.log(goods);
 //console.log(cart);
 
@@ -49,22 +50,22 @@
 //};
 
 // Решаем проблему с доп табами
-let activeTabId = 'goods';
+//let activeTabId = 'goods';
 
-const initialTab = document.querySelector(`button[data-tab-id="${activeTabId}"]`);
-initialTab.classList.add('active');
+//const initialTab = document.querySelector(`button[data-tab-id="${activeTabId}"]`);
+//initialTab.classList.add('active');
 
-const tabs = document.querySelectorAll('button.tab');
-for (let i = 0; i < tabs.length; i++) {
-	const tab = tabs[i];
-	tab.addEventListener('click', clickHandler);
-};
+//const tabs = document.querySelectorAll('button.tab');
+//for (let i = 0; i < tabs.length; i++) {
+//	const tab = tabs[i];
+//	tab.addEventListener('click', clickHandler);
+//};
 
-function clickHandler(event) {
-	const activeTab = document.querySelector(`button[data-tab-id="${activeTabId}"]`);
-	activeTab.classList.remove('active');
-	event.target.classList.add('active');
+//function clickHandler(event) {
+//	const activeTab = document.querySelector(`button[data-tab-id="${activeTabId}"]`);
+//	activeTab.classList.remove('active');
+//	event.target.classList.add('active');
 
-	console.log(event.target.dataset);
-	activeTabId = event.target.dataset.tabId;
-};
+//	console.log(event.target.dataset);
+//	activeTabId = event.target.dataset.tabId;
+//};
